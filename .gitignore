@@ -1,0 +1,14 @@
+# 虚拟环境
+.venv/
+# IDE缓存
+.idea/
+.vscode/
+.claude/
+# python缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 前端依赖
+node_modules/
+dist/

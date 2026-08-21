@@ -1,0 +1,50 @@
+网络 Fetch/XHR 筛选：
+list/?device_platform
+1.标头：
+aweme/v1/web/comment/list
+2.访问网站：
+顶部搜索栏网址
+
+py douyin_comment.py
+
+使用D:\idea_workspace\Demo512\Py_Data\douyin_comment.py采集的数据：
+列名	来源字段	说明
+昵称	user.nickname	抖音用户昵称
+地区	ip_label	IP 归属地，无则填「未知」
+日期	create_time	时间戳转成 YYYY-MM-DD HH:MM:SS
+内容	text	评论原文
+点赞	digg_count	评论点赞数量（数字）
+================================
+# 终端1: 后端（自动拉起Flask分词服务）
+cd dy-backend
+mvn spring-boot:run
+# 终端2: 前端
+cd dy-frontend
+npm run dev
+
+
+
+普通用户：
+18888888888
+密码六个8
+管理员：
+13800000000
+123456
+
+================================
+第一次使用，需要自己抖音号扫码登陆
+不支持图文视频的评论采集！！！
+采集视频编号：
+7613237683142223214
+7638620944261331697
+7637467511822816330
+7632635263277230065
+链接：
+已使用
+https://v.douyin.com/SD1f-LK6DAg/
+https://v.douyin.com/PNPUEZj1Bto/
+https://v.douyin.com/-O4dZlmuXPY/
+https://v.douyin.com/LF_9sL6cY-E/
+未使用
+https://v.douyin.com/6xFNKNNJ3p4/
+=================================
